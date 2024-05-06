@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50rem;
+    text-align:left;
+    
+}
+p {
+    color: slategray;
+    font-family:fantasy;
+    font-size:large
+
+}
+
+h1 {
+    color: darkred;
+    font-size:larger;
+}
+
+h2 {
+    font-size: large;
+}
+
+.home {
+    font-size: x-large;
+    font-family: monospace;
+}
+.head {
+    padding: 10px;
+    background-color: brown;
+    display: flex;
+    gap: 10px;
+}
+
+header,
+footer {
+    background-color: silver;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }

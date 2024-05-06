@@ -1,0 +1,11 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/submit" method="POST">
+<input name="Number" type="text" placeholder="Number">
+<input name="Email" type="text" placeholder="Email">
+<textarea name="text" id="feedback-input" cols="30" rows="10">Comment</textarea>
+<input type="submit" placeholder="SUBMIT">
+</form>
+
+
+<%- include("partials/footer.ejs") %>
